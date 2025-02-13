@@ -1,0 +1,145 @@
+/* Definimos las variables de los colores*/
+:root {
+    --color_blue: #93B5C9;
+    --color_wine: #AB2849;
+    --background_color: #f2ffb6;
+ }
+ 
+ /* Inicializamos los valores  del CSS */
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: 0;
+ }
+ 
+ /* Definimos los elementos de la web */
+ 
+ /*  estilos del body */
+ 
+ body {
+ 
+    width: 1900px;
+    height: 100%vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background_color);
+
+ }
+ 
+ 
+ /*  estilos del header */
+
+ header {
+
+    width: 1895px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+ }
+
+ 
+ .line_1 {
+    width: 100%;
+    height: 20vh;
+    background-color: var(--color_blue);
+    
+ }   
+ 
+ .line_2 {
+    width: 100%;
+    height: 30vh;
+    background-color: var(--color_wine);
+ }
+ 
+ /* estilos del main  */ 
+
+ main {
+
+    width: 1700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+ }
+ 
+ .conten_1 {
+
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+
+ }
+ 
+ 
+ .line_3 {
+     
+     width: 100%;
+     height: 15vh;
+     margin-top: 3vh;
+     
+     background-color: var(--color_wine);
+     
+ }
+
+
+ .conten_2 {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20PX;
+    margin-bottom: 20PX;
+    
+
+ }
+
+ .line_4  {
+    
+    width: 900px;
+    height: 15vh;
+    margin-right: 8PX;
+
+    background-color: var(--color_wine);
+    
+}
+
+.line_5 {
+
+    width: 900px;
+    height: 15vh;
+    margin-left: 8px;
+    background-color: var(--color_wine);
+
+}
+
+
+
+ 
+ /* stilos del footer */
+ 
+footer {
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line_6 {
+ 
+    width: 100%;
+    height: 12vh;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-color: var(--color_wine);
+ }
